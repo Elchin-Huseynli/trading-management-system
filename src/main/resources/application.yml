@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: trading-management-system
+  profiles:
+    include:
+      - db
+      - email
+      - security
